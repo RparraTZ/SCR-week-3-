@@ -3,11 +3,11 @@ body {
   margin: 40px auto;
   font-family: Arial, Helvetica, sans-serif;
 }
-footer {
+header {
   display: flex;
   justify-content: center;
 }
-footer a {
+header a {
   font-size: 18px;
   margin: 0 15px;
   color: green;
@@ -15,6 +15,9 @@ footer a {
 h1 {
   text-align: center;
   margin-bottom: 40px;
+}
+h2 {
+  text-align: center;
 }
 p {
   text-align: center;
@@ -25,4 +28,14 @@ img {
   display: block;
   margin: 0 auto 40px;
   width: 400px;
+}
+.container {
+  background-color: rgb(241, 232, 221);
+  margin: 0 auto;
+  padding: 10px;
+  max-width: 600px;
+  border-radius: 10px;
+}
+footer {
+  margin-top: 15px;
 }
